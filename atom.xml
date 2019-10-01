@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-distill.github.io/"/>
-  <updated>2019-09-30T12:35:47.526Z</updated>
+  <updated>2019-10-01T10:19:45.506Z</updated>
   <id>https://ai-distill.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://ai-distill.github.io/2019/09/30/What-is-AutoEncoder-Morvan/"/>
     <id>https://ai-distill.github.io/2019/09/30/What-is-AutoEncoder-Morvan/</id>
     <published>2019-09-30T12:26:53.000Z</published>
-    <updated>2019-09-30T12:35:47.526Z</updated>
+    <updated>2019-10-01T10:19:45.506Z</updated>
     
     <summary type="html">
     
@@ -36,12 +36,12 @@
     </summary>
     
     
-      <category term="Markdown" scheme="https://ai-distill.github.io/categories/Markdown/"/>
+      <category term="Deep Learning" scheme="https://ai-distill.github.io/categories/Deep-Learning/"/>
     
     
-      <category term="Typora" scheme="https://ai-distill.github.io/tags/Typora/"/>
+      <category term="DL" scheme="https://ai-distill.github.io/tags/DL/"/>
     
-      <category term="Markdown" scheme="https://ai-distill.github.io/tags/Markdown/"/>
+      <category term="AI" scheme="https://ai-distill.github.io/tags/AI/"/>
     
   </entry>
   
