@@ -29,7 +29,7 @@
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
     
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 <body>
@@ -383,7 +383,7 @@
                 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
                 <script>
                     var typed = new Typed("#typed", {
-                        strings: ['No pains, no gains.', 'It is a shame that such a good method is not backed by a solid paper'],
+                        strings: ['We should consider every day lost on which we have not danced at least once.', 'It is a shame that such a good method is not backed by a solid paper'],
                         startDelay: 300,
                         typeSpeed: 100,
                         loop: true,
@@ -475,7 +475,7 @@
     
     
     <div class="carousel-item amber white-text carousel-post bg-cover"
-            style="background-image: url('/images/1.jpg');">
+            style="background-image: url('/medias/featureimages/14.jpg');">
         <div class="container" style="right: 0px;left: 0px;">
             <div class="row">
                 <div class="col s10 offset-s1">
@@ -567,7 +567,31 @@ $(function () {
 
     
     
-    <div class="col s12" >
+    <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/8.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/PyTorch/" class="category">PyTorch</a>
+                    
+                </div>
+                <a href="/2019/10/07/PyTorch-01-Basic-Concepts-of-PyTorch/">
+                    <h3 class="post-title">[PyTorch_01]Basic Concepts of PyTorch</h3>
+                </a>
+                <p class="post-description">
+                    
+                        Introduce tensor, Variable, Dataset(An abstract class, introduce how to load data efficiently in PyTorch), and some operations about model, such as save the whole model or save the parameters of model and load model.
+                    
+                </p>
+                <a href="/2019/10/07/PyTorch-01-Basic-Concepts-of-PyTorch/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                    <i class="icon far fa-eye fa-fw"></i>Read more
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" >
         <div class="post-card" style="background-image: url('/medias/featureimages/14.jpg')">
             <div class="post-body">
                 <div class="post-categories">
@@ -578,8 +602,12 @@ $(function () {
                 <a href="/2019/09/30/What-is-AutoEncoder-Morvan/">
                     <h3 class="post-title">What is AutoEncoder?(Morvan)</h3>
                 </a>
-                <p class="post-description">Because the scale of NN is large, we often take some measurements to get thinner.</p>
-                <a href="/2019/09/30/What-is-AutoEncoder-Morvan/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #FF5E3A 0%, #FF2A68 100%)" target="_blank">
+                <p class="post-description">
+                    
+                        Because the scale of NN is large, we often take some measurements to get thinner.
+                    
+                </p>
+                <a href="/2019/09/30/What-is-AutoEncoder-Morvan/" class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)" target="_blank">
                     <i class="icon far fa-eye fa-fw"></i>Read more
                 </a>
             </div>
@@ -602,6 +630,57 @@ $(function () {
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/2019/10/07/PyTorch-01-Basic-Concepts-of-PyTorch/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="[PyTorch_01]Basic Concepts of PyTorch">
+                            
+                            <span class="card-title">[PyTorch_01]Basic Concepts of PyTorch</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                Introduce tensor, Variable, Dataset(An abstract class, introduce how to load data efficiently in PyTorch), and some operations about model, such as save the whole model or save the parameters of model and load model.
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-10-07
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/PyTorch/" class="post-category">
+                                    PyTorch
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/tags/DL/">
+                            <span class="chip bg-color">DL</span>
+                        </a>
+                        
+                        <a href="/tags/AI/">
+                            <span class="chip bg-color">AI</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -654,41 +733,6 @@ $(function () {
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2019/09/30/hello-world/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                            
-                            <span class="card-title">Hello World</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-09-30
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                sivan Wu
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
         </div>
     </article>
 
@@ -708,7 +752,7 @@ $(function () {
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;Total word count in site:&nbsp;<span
-                class="white-color">120</span>&nbsp;words
+                class="white-color">1.2k</span>&nbsp;words
             
             
             
