@@ -626,7 +626,7 @@ dataiter <span class="token operator">=</span> torch<span class="token punctuati
 
 </code></pre>
 <h1 id="How-to-save-model-and-load"><a href="#How-to-save-model-and-load" class="headerlink" title="How to save model and load"></a>How to save model and load</h1><blockquote>
-<p>If your model have learned completely and you want to use in the next time, you should save the whole model(including the structure and parameters) or save the parameters of model.<br>Maybe model has been saved completely, you should load it and then you can let it continue to work.</p>
+<p>If your model have learned completely and you want to use in the next time, you should save the whole model (including the structure and parameters ) or save the parameters of model.<br>Maybe model has been saved completely, you should load it and then you can let it continue to work.</p>
 </blockquote>
 <h2 id="Save-the-whole-model"><a href="#Save-the-whole-model" class="headerlink" title="Save the whole model"></a>Save the whole model</h2><pre class=" language-python"><code class="language-python">torch<span class="token punctuation">.</span>save<span class="token punctuation">(</span>model<span class="token punctuation">,</span> <span class="token string">'./model.pth'</span><span class="token punctuation">)</span></code></pre>
 <h2 id="Save-the-parameters-of-model"><a href="#Save-the-parameters-of-model" class="headerlink" title="Save the parameters of model"></a>Save the parameters of model</h2><pre class=" language-python"><code class="language-python">torch<span class="token punctuation">.</span>save<span class="token punctuation">(</span>model<span class="token punctuation">.</span>state_dict<span class="token punctuation">,</span> <span class="token string">'./model_state.pth'</span><span class="token punctuation">)</span></code></pre>
@@ -1046,13 +1046,6 @@ net<span class="token punctuation">.</span>load_state_dict<span class="token pun
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
 
     <footer class="page-footer bg-color">
